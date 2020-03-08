@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Corona-Info</string>
+    <string name="accueil">Accueil</string>
+    <string name="carte">Carte</string>
+    <string name="quiz">Quiz</string>
+    <string name="container_accueil_0">
+        Quest ce que le coronavirus COVID-19 ?
+    </string>
+    <string name="container_accueil_1">
+        Les Coronavirus sont une grande famille de virus, qui provoquent des maladies allant d’un simple rhume (certains virus saisonniers sont des Coronavirus) à des pathologies plus sévères comme le MERS-COV ou le SRAS.
+    </string>
+    <string name="container_accueil_2">
+        Le virus identifié en janvier 2020 en Chine est un nouveau Coronavirus. La maladie provoquée par ce Coronavirus a été nommée COVID-19 par l’Organisation mondiale de la Santé - OMS.
+    </string>
+    <string name="container_accueil_q1">
+        Quels sont les symptômes du Coronavirus COVID-19 ?
+    </string>
+    <string name="container_accueil3">
+        Les symptômes principaux sont la fièvre ou la sensation de fièvre et des signes de difficultés respiratoires de type toux ou essoufflement.
+    </string>
+    <string name="container_accueil_q2">
+        Existe-t-il un vaccin ?
+    </string>
+    <string name="container_accueil4">
+        Il n’existe pas de vaccin contre le Coronavirus COVID-19 pour le moment. Plusieurs traitements sont en cours d’évaluation en France, en lien avec l’OMS pour être utilisés contre le Coronavirus COVID-19. Dans l’attente, le traitement est symptomatique.
+    </string>
+    <string name="container_accueil_q3">
+        Comment se transmet le Coronavirus COVID-19 ?
+    </string>
+    <string name="container_accueil5">
+        La maladie se transmet par les postillons (éternuements, toux). On considère donc qu’un contact étroit avec une personne malade est nécessaire pour transmettre la maladie : même lieu de vie, contact direct à moins d’un mètre lors d’une toux, d’un éternuement ou une discussion en l’absence de mesures de protection.  Un des vecteurs privilégiés de la transmission du virus est le contact des mains non lavées.
+    </string>
+    <string name="container_accueil_q4">
+        Peut-on attraper la maladie par l’eau ?
+    </string>
+    <string name="container_accueil6">
+        A ce jour, il n’a pas été rapporté de contamination par l’eau. Cette maladie est à transmission respiratoire et probablement de l’animal à l’homme, mais la source n’est pas encore identifiée.
+    </string>
+    <string name="container_accueil_q5">
+        Certaines personnes sont-elles plus à risque ?
+    </string>
+    <string name="container_accueil7">
+        Comme pour beaucoup de maladies infectieuses, les personnes souffrant de maladies chroniques (hypertension, diabète), les personnes âgées ou fragiles présentent un risque plus élevé.
+        Dans les cas plus sévères, la maladie peut entraîner un décès.
+    </string>
+    <string name="container_accueil_q6">
+        Quel est le délai d’incubation de la maladie ?
+    </string>
+    <string name="container_accueil8">
+        Le délai d’incubation, période entre la contamination et l’apparition des premiers symptômes, du Coronavirus COVID-19 est de 3 à 5 jours en général, délai pouvant aller jusqu’à 14 jours. Pendant cette période le sujet peut être contagieux.
+    </string>
+    <string name="container_accueil_q7">
+        Où sont faits les tests et quel est le délai pour établir un diagnostic ?
+    </string>
+    <string name="container_accueil9">
+        Les tests diagnostic du Coronavirus COVID-19 sont effectués dans tous les établissements de santé de références, plusieurs milliers peuvent être effectués chaque jour.
+    </string>
+    <string name="container_accueil_q8">
+        Qu’est-ce qu’un cas autochtone ?
+    </string>
+    <string name="container_accueil10">
+        Un cas autochtone est une personne qui développe la maladie et pour laquelle on n’a pas de notion de voyage dans une zone à risque
+    </string>
+    <string name="container_accueil_q9">
+        Qu’est-ce qu’un cas contact ?
+    </string>
+    <string name="container_accueil11">
+        Le Coronavirus COVID-19 se transmet par des gouttelettes émises par une personne malade, en particulier lors de contacts étroits.
+        Vous êtes considérés comme cas contact :\n
+        - Si vous avez partagé le même lieu de vie que le patient malade lorsque celui-ci présentait des symptômes.\n
+        - Si vous avez eu un contact direct, en face à face, à moins d’un mètre du patient malade au moment d’une toux, d’un éternuement ou lors d’une discussion.\n
+        - Avec vos voisins de classe ou de bureau.\n
+        - Si vous êtes voisin direct du sujet malade dans un avion ou un train, ou si vous êtes resté dans un espace confiné avec lui (voiture individuelle par exemple).\n
+        - Les symptômes peuvent apparaître jusqu’à 14 jours après ce contact, et se manifestent le plus souvent par de la fièvre, accompagnée de toux.
+    </string>
+    <string name="container_accueil_q10">
+        Que se passe-t-il si vous êtes considéré comme un cas contact en France ?
+    </string>
+    <string name="container_accueil12">
+        Les autorités sanitaires évaluent avec vous votre exposition et votre risque de contamination et vous délivrent une information sur la maladie due au virus et sur le dispositif de suivi. Un premier examen a pour objectif de vérifier que vous n’avez pas été contaminé. En cas de symptômes, un diagnostic sera réalisé pour vous proposer rapidement les meilleurs soins possibles.
+    </string>
+    <string name="container_accueil_q11">
+        Que se passe-t-il si vous êtes considéré comme un cas suspect en France ?
+    </string>
+    <string name="container_accueil13">
+        Vous avez été identifié par un professionnel de santé et signalé au 15. Le SAMU se met en lien avec l’infectiologue le plus proche. A l’issue d’un questionnaire, vous serez classé en cas possible ou exclu.
+        Si vous êtes considéré comme un cas possible, vous serez pris en charge et isolé dans un service d’infectiologie. Si l’infection au Coronavirus COVID-19 est exclue, vous devrez être pris en charge par votre médecin traitant habituel.
+    </string>
+    <string name="container_accueil_q12">
+        Comment s’organise la recherche autour du virus en France ?
+    </string>
+    <string name="container_accueil14">
+        Le 10 février 2020, Agnès Buzyn et Frédérique Vidal ont annoncé que la France allait allouer 2.5 millions d’euros supplémentaires pour accompagner l’effort de recherche sur le Coronavirus COVID-19. Le consortium REACTing, coordonné par l’INSERM et placé sous l’égide d’Aviesan, l’alliance de recherche en sciences du vivant et santé, a été mobilisé pour assurer le partage d’informations scientifiques et coordonner l’effort de recherche français.
+    </string>
+    <string name="container_consigne1">
+        Pour les personnes se trouvant ou revenant d’une zone où circule le virus :\n
+        - Surveillez votre température 2 fois par jour ;\n
+        - Surveillez l’apparition de symptômes d’infection respiratoire (toux, difficultés à respirer…) ;\n
+        - Lavez-vous les mains régulièrement ou utilisez une solution hydro-alcoolique ;\n
+        - Evitez tout contact avec les personnes fragiles (femmes enceintes, malades chroniques, personnes âgées…) ;\n
+        - Evitez de fréquenter des lieux où se trouvent des personnes fragiles (hôpitaux, maternités, structures d’hébergement pour personnes âgées…) ;\n
+        - Évitez toute sortie non indispensable (grands rassemblements, restaurants, cinéma…) ;\n
+        - Travailleurs/étudiants : vous pouvez retourner travailler en l’absence de symptômes ;\n
+        - Les enfants, collégiens, lycéens peuvent être envoyés à la crèche, à l’école, au collège ou au lycée.
+    </string>
+    <string name="container_consigne2">
+        En cas de signes d’infection respiratoire (fièvre ou sensation de fièvre, toux, difficultés respiratoires) si vous habitez dans une zone où circule le virus ou dans les 14 jours suivant le retour d’une zone où circule le virus :\n
+        - Contactez le Samu Centre 15 en faisant état de vos symptômes et de votre séjour récent.\n
+        - Evitez tout contact avec votre entourage.\n
+        - Portez un masque (sur prescription médicale).\n
+        - Ne vous rendez pas chez votre médecin traitant ou aux urgences, pour éviter toute potentielle contamination.
+    </string>
+    <string name="container_consigne_q1">
+        Dois-je porter un masque ?
+    </string>
+    <string name="container_consigne3">
+        Le port du masque chirurgical n’est pas recommandé sans présence de symptômes.\n
+        Le masque n’est pas la bonne réponse pour le grand public car il ne peut être porté en permanence et surtout n’a pas d’indication sans contact rapproché et prolongé avec un malade.\n
+        Le masque est donc réservé aux malades sur prescription médicale, aux contacts avérés haut risque, aux professionnels du secours à personnes, du transport sanitaire, des professions de santé, en ville comme à l’hôpital. Le Gouvernement déstocke les masques chirurgicaux du stock stratégique et continuera à le faire autant que nécessaire au fur et à mesure des besoins des territoires pour ces catégories d’indication.\n
+        Les pharmacies d’officine ont reçu ce message et délivreront des masques uniquement aux personnes ayant une indication.\n
+        Comme pour l’épisode de grippe saisonnière, les "gestes barrières" sont efficaces.
+    </string>
+    <string name="container_consigne_q2">
+        Que sont les gestes barrières ?\n
+        Le virus ne circule pas tout seul, c’est l’homme, porteur du virus, qui circule donc les mesures suivantes sont des mesures de bon sens.
+    </string>
+    <string name="container_consigne4">
+        Face aux infections respiratoires, il existe des gestes simples pour préserver votre santé et celle de votre entourage :\n
+        - Se laver les mains très régulièrement.\n
+        - Tousser ou éternuer dans son coude.\n
+        - Saluer sans se serrer la main, éviter les embrassades.\n
+        - Utiliser des mouchoirs à usage unique.\n
+        - Porter un masque quand on est malade (sur prescription médicale).
+    </string>
+    <string name="container_consigne_q3">
+        Y a-t-il suffisamment de masques en France ?
+    </string>
+    <string name="container_consigne5">
+        15 millions de masques chirurgicaux du stock national sont mis en circulation. Les 138 établissements de santé qui prennent en charge des cas confirmés de Coronavirus COVID-19 ont  déjà reçu des dotations de masques chirurgicaux.\n
+    Les masques seront aussi remis aux médecins généralistes, la semaine du 2 mars 2020, pour la prise en charge de patients suspectés d’être porteur du Coronavirus COVID-19. Cette mise à disposition sera réalisée via les pharmacies à l’aide d’un bon de retrait fourni par la caisse nationale d’assurance maladie.\n
+    Le respect des indications scientifiques et sanitaires d’utilisation de ces masques, dans les cas où ils sont utiles, est à l’évidence une condition pour que le stock et les réassorts de ces dispositifs de protection soient exploités au mieux.\n
+    Les masques seront aussi remis aux médecins généralistes, la semaine du 2 mars 2020, pour la prise en charge de patients suspectés d’être porteur du Coronavirus COVID-19. Cette mise à disposition sera réalisée via les pharmacies sur présentation de la carte professionnelle.
+    </string>
+    <string name="container_numero1">
+        Un numéro vert répond à vos questions sur le Coronavirus COVID-19 en permanence, 24h/24 et 7j/7 : 0 800 130 000.\n
+        Attention, la plateforme téléphonique n’est pas habilitée à dispenser des conseils médicaux, si vous présentez des signes d’infections respiratoires dans les 14 jours suivant votre retour de Chine (Chine continentale, Hongkong, Macao), de Singapour, de Corée du Sud, d’Iran ou des régions de Lombardie et de Vénétie en Italie, il faut contacter le 15.
+    </string>
+    <string name="container_numero_q1">
+        J’habite à l’étranger, qui appeler ?
+    </string>
+    <string name="container_numero2">
+        L’Ambassade et consulat de votre lieu de résidence est à votre disposition pour répondre à l’ensemble de vos questions. Par ailleurs, le ministère met à jour régulièrement son site de conseils aux voyageurs.
+    </string>
+    <string name="coronavirus_covid_19">CORONAVIRUS COVID-19</string>
+    <string name="meilleur_score_0">Meilleur score : 0</string>
+    <string name="commencer">Commencer</string>
+</resources>
