@@ -54,6 +54,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Listener image 4 -- A FAIRE
+        img_plane.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, TravelInfo.class);
+                startActivity(i);
+            }
+        });
 
         //Initialisation variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);

@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#efeeec">
 
     <ScrollView
         android:id="@+id/container_accueil"
@@ -35,18 +36,20 @@
 
                 <ImageButton
                     android:id="@+id/virus"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:layout_marginRight="10dp"
                     android:src="@drawable/virus"
-                    android:layout_marginTop="50dp" />
+                    android:layout_marginTop="50dp"
+                    android:background="@null"/>
 
                 <ImageButton
                     android:id="@+id/wash"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:src="@drawable/wash"
-                    android:layout_marginTop="50dp"/>
+                    android:layout_marginTop="50dp"
+                    android:background="@null"/>
 
             </LinearLayout>
 
@@ -58,20 +61,22 @@
 
                 <ImageButton
                     android:id="@+id/phone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="5dp"
                     android:src="@drawable/phone"
-                    android:layout_gravity="center" />
+                    android:layout_gravity="center"
+                    android:background="@null"/>
 
                 <ImageButton
                     android:id="@+id/plane"
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:layout_marginTop="5dp"
-                    android:layout_height="wrap_content"
                     android:src="@drawable/plane"
-                    android:layout_gravity="center" />
+                    android:layout_gravity="center"
+                    android:background="@null"/>
 
             </LinearLayout>
 

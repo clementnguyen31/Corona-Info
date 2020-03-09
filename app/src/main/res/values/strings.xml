@@ -154,4 +154,25 @@
     <string name="coronavirus_covid_19">CORONAVIRUS COVID-19</string>
     <string name="meilleur_score_0">Meilleur score : 0</string>
     <string name="commencer">Commencer</string>
+    <string name="container_voyage_q1">Quelles sont les consignes si je pars en voyage ?</string>
+    <string name="container_voyage_1">Compte tenu de l’évolution de l’épidémie de Coronavirus Covid-19, il est préférable de différer les déplacements à l’étranger, dans toute la mesure du possible.\n
+    Par ailleurs, pour les voyages vers les zones où le virus circule activement (cf liste des zones d’exposition à risque établie par le ministère de la santé, lien), il convient de se référer aux recommandations spécifiques qui figurent dans les conseils aux voyageurs du pays concerné.\n
+    Le Ministère de l’Europe et des Affaires étrangères met régulièrement à jour ses conseils aux voyageurs. Ils sont disponibles sur le site du ministère de l’Europe et des Affaires étrangères (lien) et sont réévalués en fonction de l’évolution de la situation épidémiologique internationale et des mesures prises par les autorités locales.\n
+    Le ministère de l’Éducation nationale indique que tous les voyages scolaires à l’étranger en cours doivent être interrompus et que les voyages scolaires envisagés à l’étranger ou dans les zones de regroupement de cas (cluster)sont suspendus jusqu’à nouvel ordre.</string>
+    <string name="container_voyage_q2">Qu’est-ce qu’une zone à risque ? </string>
+    <string name="container_voyage_2">Un pays, ou une région, est considéré comme une zone à risque quand il a franchi le seuil épidémique, c’est à dire que le coronavirus COVID-19 circule activement. Les pays concernés sont :\n
+        Chine : Chine continentale, Hong Kong, Macao\n
+        Singapour\n
+        Corée du Sud\n
+        Iran\n
+        Italie : régions d’Emilie-Romagne, de Lombardie et de Vénétie</string>
+    <string name="container_voyage_q3">Quelles sont les mesures mises en place dans les lieux de passage (gares, aéroports, ports) ? </string>
+    <string name="container_voyage_3">Un dispositif d’information des voyageurs a été mis en place dans l’ensemble des points de contact des voyageurs. Ce dispositif rappelle les consignes sanitaires pour se protéger du virus et les bons réflexes à adopter en cas de contamination.</string>
+    <string name="container_voyage_q4">Comment sont pris en charge les éventuels patients symptomatiques à l’aéroport ?</string>
+    <string name="container_voyage_4">Ils sont pris en charge par le service médical d’urgence de l’aéroport. Puis ils sont isolés et pris en charge, comme tout cas possible, par le SAMU Centre 15, conformément aux procédures en vigueur.</string>
+    <string name="conseils_aux_voyageurs">CONSEILS AUX VOYAGEURS</string>
+    <string name="entrez_votre_pr_nom">Entrez votre prénom</string>
+    <string name="pr_nom">Prénom</string>
+
+
 </resources>

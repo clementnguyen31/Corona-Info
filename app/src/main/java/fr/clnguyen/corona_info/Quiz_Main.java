@@ -45,6 +45,18 @@ public class Quiz_Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_main);
 
+        Intent intent = getIntent();
+        if (intent != null){
+            String str = "";
+            if (intent.hasExtra("text")){
+                str = intent.getStringExtra("text");
+            }
+            TextView textView = (TextView) findViewById(R.id.prenom_quiz_main);
+            textView.setText(""+str);
+        }
+
+
+
         textViewQuestion = findViewById(R.id.text_question);
         textViewScore = findViewById(R.id.text_score);
         textViewQuestionCompteur = findViewById(R.id.text_question_compteur);

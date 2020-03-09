@@ -9,11 +9,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Quiz extends AppCompatActivity {
+public class    Quiz extends AppCompatActivity {
 
     private static final int CODE = 1;
 
@@ -32,12 +33,16 @@ public class Quiz extends AppCompatActivity {
         textViewHighscore = findViewById(R.id.meilleur_score);
         loadHighscore();
 
+
         //Bouton commencer
         Button buttonStart = findViewById(R.id.bouton_commencer);
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Quiz.this, Quiz_Main.class);
+                EditText prenom = (EditText) findViewById(R.id.prenom_quiz);
+                String str = prenom.getText().toString();
+                i.putExtra("text", str);
                 startActivityForResult(i, CODE);
             }
         });
@@ -99,4 +104,6 @@ public class Quiz extends AppCompatActivity {
         editor.putInt(KEY_HIGHSCORE, highscore);
         editor.apply();
     }
+
+
 }
