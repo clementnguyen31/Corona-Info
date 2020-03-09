@@ -35,6 +35,7 @@
             android:layout_gravity="center_horizontal"
             android:hint="@string/entrez_votre_pr_nom"
             android:layout_marginBottom="150dp"
+            android:textColor="@color/colorBlack"
             android:textSize="20sp"
             android:layout_marginTop="30dp" />
 

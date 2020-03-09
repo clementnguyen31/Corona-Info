@@ -23,7 +23,6 @@ public class Quiz_Main extends AppCompatActivity {
     private TextView textViewQuestion;
     private TextView textViewScore;
     private TextView textViewQuestionCompteur;
-    private TextView textViewTemps;
     private RadioGroup rbGroup;
     private RadioButton rb1;
     private RadioButton rb2;
@@ -60,7 +59,6 @@ public class Quiz_Main extends AppCompatActivity {
         textViewQuestion = findViewById(R.id.text_question);
         textViewScore = findViewById(R.id.text_score);
         textViewQuestionCompteur = findViewById(R.id.text_question_compteur);
-        textViewTemps = findViewById(R.id.text_temps);
         rbGroup = findViewById(R.id.radio_group);
         rb1 = findViewById(R.id.radio_button1);
         rb2 = findViewById(R.id.radio_button2);
