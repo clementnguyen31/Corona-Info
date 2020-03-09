@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton img_wash = findViewById(R.id.wash);
         ImageButton img_phone = findViewById(R.id.phone);
         ImageButton img_plane = findViewById(R.id.plane);
+        ImageButton img_infected = findViewById(R.id.infected);
 
         //Bordure image -- A FAIRE
 
@@ -53,11 +54,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Listener image 4 -- A FAIRE
+        //Listener image 4
         img_plane.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, TravelInfo.class);
+                startActivity(i);
+            }
+        });
+
+        //Listener image 5
+        img_infected.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, CasInfecteInfo.class);
                 startActivity(i);
             }
         });

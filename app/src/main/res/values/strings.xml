@@ -173,6 +173,7 @@
     <string name="conseils_aux_voyageurs">CONSEILS AUX VOYAGEURS</string>
     <string name="entrez_votre_pr_nom">Entrez votre prénom</string>
     <string name="pr_nom">Prénom</string>
+    <string name="nombre_d_infect_s">Nombre d\'infectés</string>
 
 
 </resources>

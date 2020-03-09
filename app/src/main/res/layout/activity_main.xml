@@ -40,7 +40,6 @@
                     android:layout_height="150dp"
                     android:layout_marginRight="10dp"
                     android:src="@drawable/virus"
-                    android:layout_marginTop="50dp"
                     android:background="@null"/>
 
                 <ImageButton
@@ -48,7 +47,6 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:src="@drawable/wash"
-                    android:layout_marginTop="50dp"
                     android:background="@null"/>
 
             </LinearLayout>
@@ -77,6 +75,33 @@
                     android:src="@drawable/plane"
                     android:layout_gravity="center"
                     android:background="@null"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/infected"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/infected"
+                    android:layout_gravity="center"
+                    android:background="@null"/>
+
+                <ImageButton
+                    android:id="@+id/idk"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:background="@null"/>
+
 
             </LinearLayout>
 
