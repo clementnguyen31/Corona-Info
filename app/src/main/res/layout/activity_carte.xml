@@ -30,6 +30,6 @@
         app:menu="@menu/bottom_nav"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        android:background="@color/colorBlue"/>
+        android:background="#eeeeee"/>
 
 </RelativeLayout>

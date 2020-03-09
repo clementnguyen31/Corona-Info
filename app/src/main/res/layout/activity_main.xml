@@ -6,12 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#efeeec">
+    android:background="#eeeeee"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
 
     <ScrollView
         android:id="@+id/container_accueil"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,9 +28,10 @@
                 android:layout_height="wrap_content"
                 android:textSize="50dp"
                 android:textStyle="bold"
-                android:textColor="@color/colorBlue"
+                android:textColor="@color/colorBlack"
                 android:gravity="center"
-                android:text="@string/accueil" />
+                android:text="@string/accueil"
+                android:layout_marginBottom="30dp"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -36,16 +41,15 @@
 
                 <ImageButton
                     android:id="@+id/virus"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/virus"
                     android:background="@null"/>
 
                 <ImageButton
                     android:id="@+id/wash"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/wash"
                     android:background="@null"/>
 
@@ -59,19 +63,16 @@
 
                 <ImageButton
                     android:id="@+id/phone"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/phone"
                     android:layout_gravity="center"
                     android:background="@null"/>
 
                 <ImageButton
                     android:id="@+id/plane"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/plane"
                     android:layout_gravity="center"
                     android:background="@null"/>
@@ -86,19 +87,16 @@
 
                 <ImageButton
                     android:id="@+id/infected"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:src="@drawable/infected"
                     android:layout_gravity="center"
                     android:background="@null"/>
 
                 <ImageButton
                     android:id="@+id/idk"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
                     android:background="@null"/>
 
@@ -117,6 +115,6 @@
         app:menu="@menu/bottom_nav"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        android:background="@color/colorBlue"/>
+        android:background="#eeeeee"/>
 
 </RelativeLayout>
