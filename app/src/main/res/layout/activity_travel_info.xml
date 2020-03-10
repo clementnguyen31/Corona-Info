@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eeeeee"
+    android:paddingLeft="10dp"
     android:paddingTop="10dp"
-    android:paddingRight="10dp"
-    android:paddingLeft="10dp">
+    android:paddingRight="10dp">
 
     <ScrollView
         android:id="@+id/container_accueil"
@@ -23,79 +22,80 @@
                 android:id="@+id/titre_page_accueil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="@color/colorBlack"
                 android:gravity="center"
                 android:justificationMode="inter_word"
-                android:text="@string/conseils_aux_voyageurs" />
+                android:text="@string/conseils_aux_voyageurs"
+                android:textColor="@color/colorBlack"
+                android:textSize="40dp"
+                android:textStyle="bold" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textStyle="bold"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_q1"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_1"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_q2"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_2"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_q3"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_3"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
+                android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:textColor="@color/colorBlack"
                 android:text="@string/container_voyage_q4"
-                android:justificationMode="inter_word"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

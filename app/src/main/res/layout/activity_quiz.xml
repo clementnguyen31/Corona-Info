@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#eeeeee"
+    android:paddingLeft="10dp"
     android:paddingTop="10dp"
-    android:paddingRight="10dp"
-    android:paddingLeft="10dp">
+    android:paddingRight="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#FFFFFF">
+        android:background="#FFFFFF"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/titre_page_quiz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/quiz"
-            android:textSize="50dp"
             android:layout_gravity="center"
             android:layout_marginBottom="150dp"
-            android:textStyle="bold"
-            android:textColor="@color/colorBlack" />
+            android:text="@string/quiz"
+            android:textColor="@color/colorBlack"
+            android:textSize="50dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/meilleur_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@color/colorBlack"
             android:layout_marginBottom="5dp"
             android:text="@string/meilleur_score_0"
+            android:textColor="@color/colorBlack"
             android:textSize="20sp" />
 
         <EditText
@@ -43,30 +42,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:hint="@string/entrez_votre_pr_nom"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="150dp"
+            android:hint="@string/entrez_votre_pr_nom"
             android:textColor="@color/colorBlack"
-            android:textSize="20sp"
-            android:layout_marginTop="30dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/bouton_commencer"
             android:layout_width="wrap_content"
-            android:layout_gravity="center"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="@string/commencer" />
 
     </LinearLayout>
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bottom_nav"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav"
+        android:background="#eeeeee"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        android:background="#eeeeee"/>
+        app:menu="@menu/bottom_nav" />
 
 </RelativeLayout>

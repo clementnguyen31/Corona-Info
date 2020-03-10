@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#eeeeee"
+    android:paddingLeft="10dp"
     android:paddingTop="10dp"
     android:paddingRight="10dp"
-    android:paddingLeft="10dp">
+    tools:context=".MainActivity">
 
     <ScrollView
         android:id="@+id/container_accueil"
@@ -26,79 +25,79 @@
                 android:id="@+id/titre_page_accueil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="50dp"
-                android:textStyle="bold"
-                android:textColor="@color/colorBlack"
+                android:layout_marginBottom="30dp"
                 android:gravity="center"
                 android:text="@string/accueil"
-                android:layout_marginBottom="30dp"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="50dp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/virus"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/virus"
-                    android:background="@null"/>
+                    android:background="@null"
+                    android:src="@drawable/virus" />
 
                 <ImageButton
                     android:id="@+id/wash"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/wash"
-                    android:background="@null"/>
+                    android:background="@null"
+                    android:src="@drawable/wash" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/phone"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/phone"
                     android:layout_gravity="center"
-                    android:background="@null"/>
+                    android:background="@null"
+                    android:src="@drawable/phone" />
 
                 <ImageButton
                     android:id="@+id/plane"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/plane"
                     android:layout_gravity="center"
-                    android:background="@null"/>
+                    android:background="@null"
+                    android:src="@drawable/plane" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/infected"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/infected"
                     android:layout_gravity="center"
-                    android:background="@null"/>
+                    android:background="@null"
+                    android:src="@drawable/infected" />
 
                 <ImageButton
                     android:id="@+id/idk"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:background="@null"/>
+                    android:background="@null" />
 
 
             </LinearLayout>
@@ -108,13 +107,13 @@
     </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bottom_nav"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav"
+        android:background="#eeeeee"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
-        android:background="#eeeeee"/>
+        app:menu="@menu/bottom_nav" />
 
 </RelativeLayout>

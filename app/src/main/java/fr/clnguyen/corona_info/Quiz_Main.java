@@ -45,15 +45,14 @@ public class Quiz_Main extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_main);
 
         Intent intent = getIntent();
-        if (intent != null){
+        if (intent != null) {
             String str = "";
-            if (intent.hasExtra("text")){
+            if (intent.hasExtra("text")) {
                 str = intent.getStringExtra("text");
             }
             TextView textView = (TextView) findViewById(R.id.prenom_quiz_main);
-            textView.setText(""+str);
+            textView.setText("" + str);
         }
-
 
 
         textViewQuestion = findViewById(R.id.text_question);
@@ -77,13 +76,13 @@ public class Quiz_Main extends AppCompatActivity {
         buttonSuivant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!repondu){
+                if (!repondu) {
                     if (rb1.isChecked() || rb2.isChecked() || rb3.isChecked()) {
                         verifierReponse();
                     } else {
                         Toast.makeText(Quiz_Main.this, "Selectionner une réponse", Toast.LENGTH_SHORT).show();
                     }
-                } else{
+                } else {
                     afficherProchaineQuestion();
                 }
             }
