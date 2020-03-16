@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="listeInfectes">
+		<item>China:80981 cases</item>
+		<item>Italy :15113 cases</item>
+		<item>Iran (Islamic Republic of) :10075 cases</item>
+		<item>Republic of Korea :7979 cases</item>
+		<item>Spain :2965 cases</item>
+		<item>France :2860 cases</item>
+		<item>Germany :2369 cases</item>
+		<item>United States of America :1264 cases</item>
+		<item>Switzerland :858 cases</item>
+		<item>International conveyance (Diamond Princess) :696 cases</item>
+		<item>Japan :675 cases</item>
+		<item>Denmark :674 cases</item>
+		<item>Sweden :620 cases</item>
+		<item>Netherlands :614 cases</item>
+		<item>United Kingdom :594 cases</item>
+		<item>Austria :361 cases</item>
+		<item>Belgium :314 cases</item>
+		<item>Norway :277 cases</item>
+		<item>Qatar :262 cases</item>
+		<item>Bahrain :195 cases</item>
+		<item>Singapore :187 cases</item>
+		<item>Finland :155 cases</item>
+		<item>Australia :140 cases</item>
+		<item>Canada :138 cases</item>
+		<item>Malaysia :129 cases</item>
+		<item>Czech Republic :116 cases</item>
+		<item>Greece :98 cases</item>
+		<item>United Arab Emirates :85 cases</item>
+		<item>Kuwait :80 cases</item>
+		<item>Brazil :77 cases</item>
+		<item>Israel :75 cases</item>
+		<item>India :74 cases</item>
+		<item>Iraq :70 cases</item>
+		<item>Ireland :70 cases</item>
+		<item>Thailand :70 cases</item>
+		<item>Egypt :67 cases</item>
+		<item>Lebanon :66 cases</item>
+		<item>San Marino :63 cases</item>
+		<item>Iceland :61 cases</item>
+		<item>Slovenia :57 cases</item>
+		<item>Philippines :52 cases</item>
+		<item>Poland :49 cases</item>
+		<item>Romania :48 cases</item>
+		<item>Portugal :41 cases</item>
+		<item>Viet Nam :39 cases</item>
+		<item>Indonesia :34 cases</item>
+		<item>Russian Federation :34 cases</item>
+		<item>Chile :33 cases</item>
+		<item>occupied Palestinian territory :31 cases</item>
+		<item>Algeria :25 cases</item>
+		<item>Georgia :25 cases</item>
+		<item>Albania :23 cases</item>
+		<item>Costa Rica :22 cases</item>
+		<item>Peru :22 cases</item>
+		<item>Argentina :21 cases</item>
+		<item>Saudi Arabia :21 cases</item>
+		<item>Slovakia :21 cases</item>
+		<item>Pakistan :20 cases</item>
+		<item>Serbia :19 cases</item>
+		<item>Oman :18 cases</item>
+		<item>Ecuador :17 cases</item>
+		<item>Luxembourg :17 cases</item>
+		<item>South Africa :17 cases</item>
+		<item>Croatia :16 cases</item>
+		<item>Hungary :16 cases</item>
+		<item>Latvia :16 cases</item>
+		<item>Panama :14 cases</item>
+		<item>Estonia :13 cases</item>
+		<item>Belarus :12 cases</item>
+		<item>Brunei Darussalam :12 cases</item>
+		<item>Mexico :12 cases</item>
+		<item>Azerbaijan :11 cases</item>
+		<item>Senegal :10 cases</item>
+		<item>Colombia :9 cases</item>
+		<item>Malta :9 cases</item>
+		<item>Maldives :8 cases</item>
+		<item>Afghanistan :7 cases</item>
+		<item>Bulgaria :7 cases</item>
+		<item>North Macedonia :7 cases</item>
+		<item>Tunisia :7 cases</item>
+		<item>Cyprus :6 cases</item>
+		<item>French Guiana :6 cases</item>
+		<item>Morocco :6 cases</item>
+		<item>Cambodia :5 cases</item>
+		<item>Dominican Republic :5 cases</item>
+		<item>New Zealand :5 casesPanama :14 cases</item>
+		<item>Paraguay :5 cases</item>
+		<item>Bosnia and Herzegovina :4 cases</item>
+		<item>Liechtenstein :4 cases</item>
+		<item>Martinique :4 cases</item>
+		<item>Republic of Moldova :4 cases</item>
+		<item>Bangladesh :3 cases</item>
+		<item>Bolivia (Plurinational State of) :3 cases</item>
+		<item>Cuba :3 cases</item>
+		<item>Lithuania :3 cases</item>
+		<item>Réunion :3 cases</item>
+		<item>Sri Lanka :3 cases</item>
+		<item>Ukraine :3 cases</item>
+		<item>Cameroon :3 cases</item>
+		<item>Cote d Ivoire :3 cases</item>
+		<item>French Polynesia :3 cases</item>
+		<item>Guadeloupe :3 cases</item>
+		<item>Puerto Rico :3 cases</item>
+		<item>Ukraine :3 cases</item>
+		<item>Andorra :2 cases</item>
+		<item>Democratic Republic of the Congo :2 cases</item>
+		<item>Ghana :2 cases</item>
+		<item>Honduras :2 cases</item>
+		<item>Jersey :2 cases</item>
+		<item>Monaco :2 cases</item>
+		<item>Nigeria :2 cases</item>
+		<item>Saint Martin :2 cases</item>
+		<item>Venezuela (Bolivarian Republic of) :2 cases</item>
+		<item>Namibia :2 cases</item>
+		<item>Curacao :2 cases</item>
+		<item>Antigua and Barbuda :1 cases</item>
+		<item>Bhutan :1 cases</item>
+		<item>Cayman Islands :1 cases</item>
+		<item>Ethiopia :1 cases</item>
+		<item>Gabon :1 cases</item>
+		<item>Gibraltar :1 cases</item>
+		<item>Guinea :1 cases</item>
+		<item>Holy See :1 cases</item>
+		<item>Jordan :1 cases</item>
+		<item>Kenya :1 cases</item>
+		<item>Mongolia :1 cases</item>
+		<item>Nepal :1 cases</item>
+		<item>Saint Barthelemy :1 cases</item>
+		<item>Saint Vincent and the Grenadines :1 cases</item>
+		<item>Sudan :1 cases</item>
+		<item>Togo :1 cases</item>
+		<item>Trinidad and Tobago :1 cases</item>
+		<item>Equatorial Guinea :1 cases</item>
+		<item>Eswatini :1 cases</item>
+		<item>Mauritania :1 cases</item>
+		<item>Mayotte :1 cases</item>
+		<item>Central African Republic :1 cases</item>
+		<item>Congo :1 cases</item>
+	</string-array>
+</resources>

@@ -57,6 +57,7 @@ public class Carte extends AppCompatActivity implements OnMapReadyCallback {
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+        //On met tous les points
         mapAPI = googleMap;
         LatLng chine = new LatLng(30.580456, 114.326469);
         LatLng france = new LatLng(50.293930, 2.148420);

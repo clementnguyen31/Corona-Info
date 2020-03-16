@@ -31,6 +31,7 @@ public class Quiz extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
 
         textViewHighscore = findViewById(R.id.meilleur_score);
+        //On affiche le meilleur score
         loadHighscore();
 
 
@@ -76,6 +77,7 @@ public class Quiz extends AppCompatActivity {
     }
 
     @Override
+    //Pour récuperer le score du quiz
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 

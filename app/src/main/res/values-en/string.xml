@@ -1,0 +1,91 @@
+<resources>
+    <string name="container_accueil_0">
+        What is the coronavirus COVID-19?
+    </string>
+    <string name="container_accueil_1">
+        Coronaviruses are a large family of viruses that cause illnesses ranging from the common cold (some seasonal viruses are Coronaviruses) to more severe illnesses such as MERS-COV or SARS.
+    </string>
+    <string name="container_accueil_2">
+        The virus identified in January 2020 in China is a new coronavirus. The disease caused by this Coronavirus has been named COVID-19 by the World Health Organization - WHO.
+    </string>
+    <string name="container_accueil_q1">
+        What are the symptoms of Coronavirus COVID-19?
+    </string>
+    <string name="container_accueil3">
+        The main symptoms are fever or a feeling of fever and signs of breathing difficulties such as coughing or shortness of breath.
+    </string>
+    <string name="container_accueil_q2">
+        Is there a vaccine?
+    </string>
+    <string name="container_accueil4">
+        There is no vaccine against COVID-19 Coronavirus at this time. Several treatments are being evaluated in France, in conjunction with the WHO, for use against the COVID-19 Coronavirus. In the meantime, treatment is symptomatic.
+    </string>
+    <string name="container_accueil_q3">
+        How is the Coronavirus COVID-19 transmitted?
+    </string>
+    <string name="container_accueil5">
+        The disease is transmitted by sputtering (sneezing, coughing). It is therefore considered that close contact with a sick person is necessary to transmit the disease: same place of residence, direct contact within one meter when coughing, sneezing or talking in the absence of protective measures.  One of the preferred vectors of virus transmission is contact with unwashed hands.
+    </string>
+    <string name="container_accueil_q4">
+        Can you get the disease from water?
+    </string>
+    <string name="container_accueil6">
+        To date, there have been no reports of water contamination. The disease is respiratory and probably animal-to-human transmitted, but the source has not yet been identified.
+    </string>
+    <string name="container_accueil_q5">
+        Are some people more at risk?
+    </string>
+    <string name="container_accueil7">
+        As with many infectious diseases, people with chronic illnesses (hypertension, diabetes), the elderly or frail are at higher risk.
+        In more severe cases, the disease can lead to death.
+    </string>
+    <string name="container_accueil_q6">
+        What is the incubation period of the disease?
+    </string>
+    <string name="container_accueil8">
+        The incubation period, the period between infection and the onset of the first symptoms, of Coronavirus COVID-19 is generally 3 to 5 days, with a delay of up to 14 days. During this period the subject may be contagious.
+    </string>
+    <string name="container_accueil_q7">
+        Where are the tests done and how long does it take to make a diagnosis?
+    </string>
+    <string name="container_accueil9">
+        Diagnostic tests for Coronavirus COVID-19 are performed in all reference health care facilities, several thousand may be performed daily.
+    </string>
+    <string name="container_accueil_q8">
+        What is an aboriginal case?
+    </string>
+    <string name="container_accueil10">
+        An Aboriginal case is a person who develops the disease and for whom there is no notion of travel to a risk area.
+    </string>
+    <string name="container_accueil_q9">
+        What is a contact case?
+    </string>
+    <string name="container_accueil11">
+        Coronavirus COVID-19 is transmitted by droplets emitted by a sick person, especially during close contact.
+        You are considered a contact case:
+        - If you shared the same living space as the sick patient when the patient was symptomatic.\n
+        - If you have had direct, face-to-face contact within 1 meter of the sick patient when coughing, sneezing or talking.\n
+        - With your school or office neighbours.\n
+        - If you are a direct neighbour of the sick person on a plane or train, or if you have been in a confined space with the sick person (e.g., in a private car).\n
+        - Symptoms may appear up to 14 days after this contact, most often manifesting as fever, accompanied by coughing.\n
+    </string>
+    <string name="container_accueil_q10">
+        What happens if you are considered a contact case in France?
+    </string>
+    <string name="container_accueil12">
+        The health authorities will assess your exposure and risk of infection with you and provide you with information on the illness caused by the virus and the monitoring system. An initial examination is carried out to check that you have not been infected. If there are any symptoms, a diagnosis will be made so that the best possible care can be provided quickly.
+    </string>
+    <string name="container_accueil_q11">
+        What happens if you are considered a suspicious case in France?
+    </string>
+    <string name="container_accueil13">
+        You have been identified by a health professional and reported to 15. The EMS will contact the nearest infectious disease specialist. Following a questionnaire, you will be classified if possible or excluded.
+        If you are considered a possible case, you will be taken in charge and isolated in an infectiology department. If the COVID-19 coronavirus infection is excluded, you will have to be treated by your usual doctor.
+    </string>
+    <string name="container_accueil_q12">
+        How is research organized around the virus in France?
+    </string>
+    <string name="container_accueil14">
+        On 10 February 2020, Agnès Buzyn and Frédérique Vidal announced that France would allocate an additional 2.5 million euros to support the research effort on the Coronavirus COVID-19. The REACTing consortium, coordinated by INSERM and placed under the aegis of Aviesan, the life sciences and health research alliance, has been mobilized to ensure the sharing of scientific information and coordinate the French research effort.
+    </string>
+</resources>
