@@ -41,6 +41,7 @@ public class Quiz extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Quiz.this, Quiz_Main.class);
+                //Transmettre le nom du joueur a l'activité suivant
                 EditText prenom = (EditText) findViewById(R.id.prenom_quiz);
                 String str = prenom.getText().toString();
                 i.putExtra("text", str);

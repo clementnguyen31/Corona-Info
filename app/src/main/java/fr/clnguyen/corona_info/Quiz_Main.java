@@ -44,6 +44,7 @@ public class Quiz_Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_main);
 
+        //Afficher le prenom du joueur
         Intent intent = getIntent();
         if (intent != null) {
             String str = "";
@@ -111,15 +112,15 @@ public class Quiz_Main extends AppCompatActivity {
         switch (questionCourante.getcorrectRep()) {
             case 1:
                 rb1.setTextColor(Color.GREEN);
-                textViewQuestion.setText("La réponse 1 est correct");
+                textViewQuestion.setText("La réponse 1 est correcte");
                 break;
             case 2:
                 rb2.setTextColor(Color.GREEN);
-                textViewQuestion.setText("La réponse 2 est correct");
+                textViewQuestion.setText("La réponse 2 est correcte");
                 break;
             case 3:
                 rb3.setTextColor(Color.GREEN);
-                textViewQuestion.setText("La réponse 3 est correct");
+                textViewQuestion.setText("La réponse 3 est correcte");
                 break;
         }
 
