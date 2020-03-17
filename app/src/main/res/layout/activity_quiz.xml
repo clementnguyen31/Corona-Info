@@ -46,6 +46,8 @@
             android:layout_marginBottom="150dp"
             android:hint="@string/entrez_votre_pr_nom"
             android:textColor="@color/colorBlack"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@color/colorPrimary"
             android:textSize="20sp" />
 
         <Button

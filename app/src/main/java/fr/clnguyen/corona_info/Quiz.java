@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -22,6 +24,8 @@ public class Quiz extends AppCompatActivity {
     public static final String KEY_HIGHSCORE = "keyHighscore";
 
     private TextView textViewHighscore;
+    private EditText prenom;
+    private Button buttonStart;
 
     private int highscore;
 
@@ -31,18 +35,18 @@ public class Quiz extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
 
         textViewHighscore = findViewById(R.id.meilleur_score);
+        prenom = findViewById(R.id.prenom_quiz);
+        buttonStart = findViewById(R.id.bouton_commencer);
+
         //On affiche le meilleur score
         loadHighscore();
 
-
         //Bouton commencer
-        Button buttonStart = findViewById(R.id.bouton_commencer);
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Quiz.this, Quiz_Main.class);
                 //Transmettre le nom du joueur a l'activité suivant
-                EditText prenom = (EditText) findViewById(R.id.prenom_quiz);
                 String str = prenom.getText().toString();
                 i.putExtra("text", str);
                 startActivityForResult(i, CODE);
@@ -92,12 +96,14 @@ public class Quiz extends AppCompatActivity {
         }
     }
 
+    //Afficher le meilleur score
     private void loadHighscore() {
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         highscore = prefs.getInt(KEY_HIGHSCORE, 0);
         textViewHighscore.setText("Meilleur Score: " + highscore);
     }
 
+    //Mis a jour du meilleur score
     private void updateHighscore(int highscoreNew) {
         highscore = highscoreNew;
         textViewHighscore.setText("Meilleur Score: " + highscore);
