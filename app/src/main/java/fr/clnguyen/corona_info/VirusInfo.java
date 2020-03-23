@@ -22,24 +22,8 @@ public class VirusInfo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setAppLocale("fr");
         setContentView(R.layout.activity_virus_info);
 
     }
-
-    private void setAppLocale(String localeCode){
-        Resources resources = getResources();
-        DisplayMetrics dm = resources.getDisplayMetrics();
-        Configuration config = resources.getConfiguration();
-        if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.JELLY_BEAN_MR1){
-            config.setLocale(new Locale(localeCode.toLowerCase()));
-        } else {
-            config.locale = new Locale(localeCode.toLowerCase());
-        }
-        resources.updateConfiguration(config, dm);
-    }
-
-
-
 
 }

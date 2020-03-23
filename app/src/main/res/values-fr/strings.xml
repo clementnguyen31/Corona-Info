@@ -4,93 +4,93 @@
     <string name="carte">Carte</string>
     <string name="quiz">Quiz</string>
     <string name="container_accueil_0">
-        What is the coronavirus COVID-19?
+        Qu\'est ce que le Coronavirus COVID-19 ?
     </string>
     <string name="container_accueil_1">
-        Coronaviruses are a large family of viruses that cause illnesses ranging from the common cold (some seasonal viruses are Coronaviruses) to more severe illnesses such as MERS-COV or SARS.
+        Les Coronavirus sont une grande famille de virus, qui provoquent des maladies allant d’un simple rhume (certains virus saisonniers sont des Coronavirus) à des pathologies plus sévères comme le MERS-COV ou le SRAS.
     </string>
     <string name="container_accueil_2">
-        The virus identified in January 2020 in China is a new coronavirus. The disease caused by this Coronavirus has been named COVID-19 by the World Health Organization - WHO.
+        Le virus identifié en janvier 2020 en Chine est un nouveau Coronavirus. La maladie provoquée par ce Coronavirus a été nommée COVID-19 par l’Organisation mondiale de la Santé - OMS.
     </string>
     <string name="container_accueil_q1">
-        What are the symptoms of Coronavirus COVID-19?
+        Quels sont les symptômes du Coronavirus COVID-19 ?
     </string>
     <string name="container_accueil3">
-        The main symptoms are fever or a feeling of fever and signs of breathing difficulties such as coughing or shortness of breath.
+        Les symptômes principaux sont la fièvre ou la sensation de fièvre et des signes de difficultés respiratoires de type toux ou essoufflement.
     </string>
     <string name="container_accueil_q2">
-        Is there a vaccine?
+        Existe-t-il un vaccin ?
     </string>
     <string name="container_accueil4">
-        There is no vaccine against COVID-19 Coronavirus at this time. Several treatments are being evaluated in France, in conjunction with the WHO, for use against the COVID-19 Coronavirus. In the meantime, treatment is symptomatic.
+        Il n’existe pas de vaccin contre le Coronavirus COVID-19 pour le moment. Plusieurs traitements sont en cours d’évaluation en France, en lien avec l’OMS pour être utilisés contre le Coronavirus COVID-19. Dans l’attente, le traitement est symptomatique.
     </string>
     <string name="container_accueil_q3">
-        How is the Coronavirus COVID-19 transmitted?
+        Comment se transmet le Coronavirus COVID-19 ?
     </string>
     <string name="container_accueil5">
-        The disease is transmitted by sputtering (sneezing, coughing). It is therefore considered that close contact with a sick person is necessary to transmit the disease: same place of residence, direct contact within one meter when coughing, sneezing or talking in the absence of protective measures.  One of the preferred vectors of virus transmission is contact with unwashed hands.
+        La maladie se transmet par les postillons (éternuements, toux). On considère donc qu’un contact étroit avec une personne malade est nécessaire pour transmettre la maladie : même lieu de vie, contact direct à moins d’un mètre lors d’une toux, d’un éternuement ou une discussion en l’absence de mesures de protection.  Un des vecteurs privilégiés de la transmission du virus est le contact des mains non lavées.
     </string>
     <string name="container_accueil_q4">
-        Can you get the disease from water?
+        Peut-on attraper la maladie par l’eau ?
     </string>
     <string name="container_accueil6">
-        To date, there have been no reports of water contamination. The disease is respiratory and probably animal-to-human transmitted, but the source has not yet been identified.
+        A ce jour, il n’a pas été rapporté de contamination par l’eau. Cette maladie est à transmission respiratoire et probablement de l’animal à l’homme, mais la source n’est pas encore identifiée.
     </string>
     <string name="container_accueil_q5">
-        Are some people more at risk?
+        Certaines personnes sont-elles plus à risque ?
     </string>
     <string name="container_accueil7">
-        As with many infectious diseases, people with chronic illnesses (hypertension, diabetes), the elderly or frail are at higher risk.
-        In more severe cases, the disease can lead to death.
+        Comme pour beaucoup de maladies infectieuses, les personnes souffrant de maladies chroniques (hypertension, diabète), les personnes âgées ou fragiles présentent un risque plus élevé.
+        Dans les cas plus sévères, la maladie peut entraîner un décès.
     </string>
     <string name="container_accueil_q6">
-        What is the incubation period of the disease?
+        Quel est le délai d’incubation de la maladie ?
     </string>
     <string name="container_accueil8">
-        The incubation period, the period between infection and the onset of the first symptoms, of Coronavirus COVID-19 is generally 3 to 5 days, with a delay of up to 14 days. During this period the subject may be contagious.
+        Le délai d’incubation, période entre la contamination et l’apparition des premiers symptômes, du Coronavirus COVID-19 est de 3 à 5 jours en général, délai pouvant aller jusqu’à 14 jours. Pendant cette période le sujet peut être contagieux.
     </string>
     <string name="container_accueil_q7">
-        Where are the tests done and how long does it take to make a diagnosis?
+        Où sont faits les tests et quel est le délai pour établir un diagnostic ?
     </string>
     <string name="container_accueil9">
-        Diagnostic tests for Coronavirus COVID-19 are performed in all reference health care facilities, several thousand may be performed daily.
+        Les tests diagnostic du Coronavirus COVID-19 sont effectués dans tous les établissements de santé de références, plusieurs milliers peuvent être effectués chaque jour.
     </string>
     <string name="container_accueil_q8">
-        What is an aboriginal case?
+        Qu’est-ce qu’un cas autochtone ?
     </string>
     <string name="container_accueil10">
-        An Aboriginal case is a person who develops the disease and for whom there is no notion of travel to a risk area.
+        Un cas autochtone est une personne qui développe la maladie et pour laquelle on n’a pas de notion de voyage dans une zone à risque
     </string>
     <string name="container_accueil_q9">
-        What is a contact case?
+        Qu’est-ce qu’un cas contact ?
     </string>
     <string name="container_accueil11">
-        Coronavirus COVID-19 is transmitted by droplets emitted by a sick person, especially during close contact.
-        You are considered a contact case:
-        - If you shared the same living space as the sick patient when the patient was symptomatic.\n
-        - If you have had direct, face-to-face contact within 1 meter of the sick patient when coughing, sneezing or talking.\n
-        - With your school or office neighbours.\n
-        - If you are a direct neighbour of the sick person on a plane or train, or if you have been in a confined space with the sick person (e.g., in a private car).\n
-        - Symptoms may appear up to 14 days after this contact, most often manifesting as fever, accompanied by coughing.\n
+        Le Coronavirus COVID-19 se transmet par des gouttelettes émises par une personne malade, en particulier lors de contacts étroits.
+        Vous êtes considérés comme cas contact :\n
+        - Si vous avez partagé le même lieu de vie que le patient malade lorsque celui-ci présentait des symptômes.\n
+        - Si vous avez eu un contact direct, en face à face, à moins d’un mètre du patient malade au moment d’une toux, d’un éternuement ou lors d’une discussion.\n
+        - Avec vos voisins de classe ou de bureau.\n
+        - Si vous êtes voisin direct du sujet malade dans un avion ou un train, ou si vous êtes resté dans un espace confiné avec lui (voiture individuelle par exemple).\n
+        - Les symptômes peuvent apparaître jusqu’à 14 jours après ce contact, et se manifestent le plus souvent par de la fièvre, accompagnée de toux.
     </string>
     <string name="container_accueil_q10">
-        What happens if you are considered a contact case in France?
+        Que se passe-t-il si vous êtes considéré comme un cas contact en France ?
     </string>
     <string name="container_accueil12">
-        The health authorities will assess your exposure and risk of infection with you and provide you with information on the illness caused by the virus and the monitoring system. An initial examination is carried out to check that you have not been infected. If there are any symptoms, a diagnosis will be made so that the best possible care can be provided quickly.
+        Les autorités sanitaires évaluent avec vous votre exposition et votre risque de contamination et vous délivrent une information sur la maladie due au virus et sur le dispositif de suivi. Un premier examen a pour objectif de vérifier que vous n’avez pas été contaminé. En cas de symptômes, un diagnostic sera réalisé pour vous proposer rapidement les meilleurs soins possibles.
     </string>
     <string name="container_accueil_q11">
-        What happens if you are considered a suspicious case in France?
+        Que se passe-t-il si vous êtes considéré comme un cas suspect en France ?
     </string>
     <string name="container_accueil13">
-        You have been identified by a health professional and reported to 15. The EMS will contact the nearest infectious disease specialist. Following a questionnaire, you will be classified if possible or excluded.
-        If you are considered a possible case, you will be taken in charge and isolated in an infectiology department. If the COVID-19 coronavirus infection is excluded, you will have to be treated by your usual doctor.
+        Vous avez été identifié par un professionnel de santé et signalé au 15. Le SAMU se met en lien avec l’infectiologue le plus proche. A l’issue d’un questionnaire, vous serez classé en cas possible ou exclu.
+        Si vous êtes considéré comme un cas possible, vous serez pris en charge et isolé dans un service d’infectiologie. Si l’infection au Coronavirus COVID-19 est exclue, vous devrez être pris en charge par votre médecin traitant habituel.
     </string>
     <string name="container_accueil_q12">
-        How is research organized around the virus in France?
+        Comment s’organise la recherche autour du virus en France ?
     </string>
     <string name="container_accueil14">
-        On 10 February 2020, Agnès Buzyn and Frédérique Vidal announced that France would allocate an additional 2.5 million euros to support the research effort on the Coronavirus COVID-19. The REACTing consortium, coordinated by INSERM and placed under the aegis of Aviesan, the life sciences and health research alliance, has been mobilized to ensure the sharing of scientific information and coordinate the French research effort.
+        Le 10 février 2020, Agnès Buzyn et Frédérique Vidal ont annoncé que la France allait allouer 2.5 millions d’euros supplémentaires pour accompagner l’effort de recherche sur le Coronavirus COVID-19. Le consortium REACTing, coordonné par l’INSERM et placé sous l’égide d’Aviesan, l’alliance de recherche en sciences du vivant et santé, a été mobilisé pour assurer le partage d’informations scientifiques et coordonner l’effort de recherche français.
     </string>
     <string name="container_consigne1">
         Pour les personnes se trouvant ou revenant d’une zone où circule le virus :\n
