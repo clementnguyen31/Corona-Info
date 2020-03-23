@@ -34,7 +34,7 @@
             android:id="@+id/prenom_quiz_main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pr_nom"
+            android:text="@string/prenom"
             android:textColor="@color/colorBlack" />
 
         <TextView

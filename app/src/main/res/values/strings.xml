@@ -1,11 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">Corona-Info</string>
     <string name="accueil" translatable="false">Accueil</string>
-    <string name="carte" translatable="false">Carte</string>
+    <string name="carte">Carte</string>
     <string name="quiz" translatable="false">Quiz</string>
-    <string name="container_accueil_0">
-        Quest ce que le coronavirus COVID-19 ?
-    </string>
     <string name="container_accueil_1">
         Les Coronavirus sont une grande famille de virus, qui provoquent des maladies allant d’un simple rhume (certains virus saisonniers sont des Coronavirus) à des pathologies plus sévères comme le MERS-COV ou le SRAS.
     </string>
@@ -92,7 +89,7 @@
     <string name="container_accueil14">
         Le 10 février 2020, Agnès Buzyn et Frédérique Vidal ont annoncé que la France allait allouer 2.5 millions d’euros supplémentaires pour accompagner l’effort de recherche sur le Coronavirus COVID-19. Le consortium REACTing, coordonné par l’INSERM et placé sous l’égide d’Aviesan, l’alliance de recherche en sciences du vivant et santé, a été mobilisé pour assurer le partage d’informations scientifiques et coordonner l’effort de recherche français.
     </string>
-    <string name="container_consigne1" translatable="false">
+    <string name="container_consigne1">
         Pour les personnes se trouvant ou revenant d’une zone où circule le virus :\n
         - Surveillez votre température 2 fois par jour ;\n
         - Surveillez l’apparition de symptômes d’infection respiratoire (toux, difficultés à respirer…) ;\n
@@ -103,28 +100,28 @@
         - Travailleurs/étudiants : vous pouvez retourner travailler en l’absence de symptômes ;\n
         - Les enfants, collégiens, lycéens peuvent être envoyés à la crèche, à l’école, au collège ou au lycée.
     </string>
-    <string name="container_consigne2" translatable="false">
+    <string name="container_consigne2">
         En cas de signes d’infection respiratoire (fièvre ou sensation de fièvre, toux, difficultés respiratoires) si vous habitez dans une zone où circule le virus ou dans les 14 jours suivant le retour d’une zone où circule le virus :\n
         - Contactez le Samu Centre 15 en faisant état de vos symptômes et de votre séjour récent.\n
         - Evitez tout contact avec votre entourage.\n
         - Portez un masque (sur prescription médicale).\n
         - Ne vous rendez pas chez votre médecin traitant ou aux urgences, pour éviter toute potentielle contamination.
     </string>
-    <string name="container_consigne_q1" translatable="false">
+    <string name="container_consigne_q1">
         Dois-je porter un masque ?
     </string>
-    <string name="container_consigne3" translatable="false">
+    <string name="container_consigne3">
         Le port du masque chirurgical n’est pas recommandé sans présence de symptômes.\n
         Le masque n’est pas la bonne réponse pour le grand public car il ne peut être porté en permanence et surtout n’a pas d’indication sans contact rapproché et prolongé avec un malade.\n
         Le masque est donc réservé aux malades sur prescription médicale, aux contacts avérés haut risque, aux professionnels du secours à personnes, du transport sanitaire, des professions de santé, en ville comme à l’hôpital. Le Gouvernement déstocke les masques chirurgicaux du stock stratégique et continuera à le faire autant que nécessaire au fur et à mesure des besoins des territoires pour ces catégories d’indication.\n
         Les pharmacies d’officine ont reçu ce message et délivreront des masques uniquement aux personnes ayant une indication.\n
         Comme pour l’épisode de grippe saisonnière, les "gestes barrières" sont efficaces.
     </string>
-    <string name="container_consigne_q2" translatable="false">
+    <string name="container_consigne_q2">
         Que sont les gestes barrières ?\n
         Le virus ne circule pas tout seul, c’est l’homme, porteur du virus, qui circule donc les mesures suivantes sont des mesures de bon sens.
     </string>
-    <string name="container_consigne4" translatable="false">
+    <string name="container_consigne4">
         Face aux infections respiratoires, il existe des gestes simples pour préserver votre santé et celle de votre entourage :\n
         - Se laver les mains très régulièrement.\n
         - Tousser ou éternuer dans son coude.\n
@@ -132,48 +129,55 @@
         - Utiliser des mouchoirs à usage unique.\n
         - Porter un masque quand on est malade (sur prescription médicale).
     </string>
-    <string name="container_consigne_q3" translatable="false">
+    <string name="container_consigne_q3">
         Y a-t-il suffisamment de masques en France ?
     </string>
-    <string name="container_consigne5" translatable="false">
+    <string name="container_consigne5">
         15 millions de masques chirurgicaux du stock national sont mis en circulation. Les 138 établissements de santé qui prennent en charge des cas confirmés de Coronavirus COVID-19 ont  déjà reçu des dotations de masques chirurgicaux.\n
     Les masques seront aussi remis aux médecins généralistes, la semaine du 2 mars 2020, pour la prise en charge de patients suspectés d’être porteur du Coronavirus COVID-19. Cette mise à disposition sera réalisée via les pharmacies à l’aide d’un bon de retrait fourni par la caisse nationale d’assurance maladie.\n
     Le respect des indications scientifiques et sanitaires d’utilisation de ces masques, dans les cas où ils sont utiles, est à l’évidence une condition pour que le stock et les réassorts de ces dispositifs de protection soient exploités au mieux.\n
     Les masques seront aussi remis aux médecins généralistes, la semaine du 2 mars 2020, pour la prise en charge de patients suspectés d’être porteur du Coronavirus COVID-19. Cette mise à disposition sera réalisée via les pharmacies sur présentation de la carte professionnelle.
     </string>
-    <string name="container_numero1" translatable="false">
+    <string name="container_numero1">
         Un numéro vert répond à vos questions sur le Coronavirus COVID-19 en permanence, 24h/24 et 7j/7 : 0 800 130 000.\n
         Attention, la plateforme téléphonique n’est pas habilitée à dispenser des conseils médicaux, si vous présentez des signes d’infections respiratoires dans les 14 jours suivant votre retour de Chine (Chine continentale, Hongkong, Macao), de Singapour, de Corée du Sud, d’Iran ou des régions de Lombardie et de Vénétie en Italie, il faut contacter le 15.
     </string>
-    <string name="container_numero_q1" translatable="false">
+    <string name="container_numero_q1">
         J’habite à l’étranger, qui appeler ?
     </string>
-    <string name="container_numero2" translatable="false">
+    <string name="container_numero2">
         L’Ambassade et consulat de votre lieu de résidence est à votre disposition pour répondre à l’ensemble de vos questions. Par ailleurs, le ministère met à jour régulièrement son site de conseils aux voyageurs.
     </string>
-    <string name="coronavirus_covid_19" translatable="false">CORONAVIRUS COVID-19</string>
-    <string name="meilleur_score_0" translatable="false">Meilleur score : 0</string>
-    <string name="commencer" translatable="false">Commencer</string>
-    <string name="container_voyage_q1" translatable="false">Quelles sont les consignes si je pars en voyage ?</string>
-    <string name="container_voyage_1" translatable="false">Compte tenu de l’évolution de l’épidémie de Coronavirus Covid-19, il est préférable de différer les déplacements à l’étranger, dans toute la mesure du possible.\n
+    <string name="coronavirus_covid_19">CORONAVIRUS COVID-19</string>
+    <string name="meilleur_score_0">Meilleur score : 0</string>
+    <string name="commencer">Commencer</string>
+    <string name="container_voyage_q1">Quelles sont les consignes si je pars en voyage ?</string>
+    <string name="container_voyage_1">Compte tenu de l’évolution de l’épidémie de Coronavirus Covid-19, il est préférable de différer les déplacements à l’étranger, dans toute la mesure du possible.\n
     Par ailleurs, pour les voyages vers les zones où le virus circule activement (cf liste des zones d’exposition à risque établie par le ministère de la santé, lien), il convient de se référer aux recommandations spécifiques qui figurent dans les conseils aux voyageurs du pays concerné.\n
     Le Ministère de l’Europe et des Affaires étrangères met régulièrement à jour ses conseils aux voyageurs. Ils sont disponibles sur le site du ministère de l’Europe et des Affaires étrangères (lien) et sont réévalués en fonction de l’évolution de la situation épidémiologique internationale et des mesures prises par les autorités locales.\n
     Le ministère de l’Éducation nationale indique que tous les voyages scolaires à l’étranger en cours doivent être interrompus et que les voyages scolaires envisagés à l’étranger ou dans les zones de regroupement de cas (cluster)sont suspendus jusqu’à nouvel ordre.</string>
-    <string name="container_voyage_q2" translatable="false">Qu’est-ce qu’une zone à risque ? </string>
-    <string name="container_voyage_2" translatable="false">Un pays, ou une région, est considéré comme une zone à risque quand il a franchi le seuil épidémique, c’est à dire que le coronavirus COVID-19 circule activement. Les pays concernés sont :\n
+    <string name="container_voyage_q2">Qu’est-ce qu’une zone à risque ? </string>
+    <string name="container_voyage_2">Un pays, ou une région, est considéré comme une zone à risque quand il a franchi le seuil épidémique, c’est à dire que le coronavirus COVID-19 circule activement. Les pays concernés sont :\n
         Chine : Chine continentale, Hong Kong, Macao\n
         Singapour\n
         Corée du Sud\n
         Iran\n
         Italie : régions d’Emilie-Romagne, de Lombardie et de Vénétie</string>
-    <string name="container_voyage_q3" translatable="false">Quelles sont les mesures mises en place dans les lieux de passage (gares, aéroports, ports) ? </string>
-    <string name="container_voyage_3" translatable="false">Un dispositif d’information des voyageurs a été mis en place dans l’ensemble des points de contact des voyageurs. Ce dispositif rappelle les consignes sanitaires pour se protéger du virus et les bons réflexes à adopter en cas de contamination.</string>
-    <string name="container_voyage_q4" translatable="false">Comment sont pris en charge les éventuels patients symptomatiques à l’aéroport ?</string>
-    <string name="container_voyage_4" translatable="false">Ils sont pris en charge par le service médical d’urgence de l’aéroport. Puis ils sont isolés et pris en charge, comme tout cas possible, par le SAMU Centre 15, conformément aux procédures en vigueur.</string>
-    <string name="conseils_aux_voyageurs" translatable="false">CONSEILS AUX VOYAGEURS</string>
-    <string name="entrez_votre_pr_nom" translatable="false">Entrez votre prénom</string>
-    <string name="pr_nom" translatable="false">Prénom</string>
-    <string name="nombre_d_infect_s" translatable="false">Nombre d\'infectés</string>
+    <string name="container_voyage_q3">Quelles sont les mesures mises en place dans les lieux de passage (gares, aéroports, ports) ? </string>
+    <string name="container_voyage_3">Un dispositif d’information des voyageurs a été mis en place dans l’ensemble des points de contact des voyageurs. Ce dispositif rappelle les consignes sanitaires pour se protéger du virus et les bons réflexes à adopter en cas de contamination.</string>
+    <string name="container_voyage_q4">Comment sont pris en charge les éventuels patients symptomatiques à l’aéroport ?</string>
+    <string name="container_voyage_4">Ils sont pris en charge par le service médical d’urgence de l’aéroport. Puis ils sont isolés et pris en charge, comme tout cas possible, par le SAMU Centre 15, conformément aux procédures en vigueur.</string>
+    <string name="conseils_aux_voyageurs">CONSEILS AUX VOYAGEURS</string>
+    <string name="entrez_votre_pr_nom">Entrez votre prénom</string>
+    <string name="prenom">Prénom</string>
+    <string name="nb_infectes">Nombre d\'infectés</string>
+    <string name="la_question">LA QUESTION</string>
+    <string name="confirmez">Confirmez</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="score_0">Score: 0</string>
+    <string name="question_1_x">Question: 1/x</string>
 
 
 </resources>
