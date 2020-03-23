@@ -6,8 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -20,8 +18,8 @@ public class Quiz extends AppCompatActivity {
 
     private static final int CODE = 1;
 
-    public static final String SHARED_PREFS = "sharedPrefs";
-    public static final String KEY_HIGHSCORE = "keyHighscore";
+    public static final String SHARED = "sharedPrefs";
+    public static final String KEY = "keyHighscore";
 
     private TextView textViewHighscore;
     private EditText prenom;
@@ -88,7 +86,7 @@ public class Quiz extends AppCompatActivity {
 
         if (requestCode == CODE) {
             if (resultCode == RESULT_OK) {
-                int score = data.getIntExtra(Quiz_Main.EXTRA_SCORE, 0);
+                int score = data.getIntExtra(Quiz_Main.SCORE, 0);
                 if (score > highscore) {
                     updateHighscore(score);
                 }
@@ -98,8 +96,8 @@ public class Quiz extends AppCompatActivity {
 
     //Afficher le meilleur score
     private void loadHighscore() {
-        SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
-        highscore = prefs.getInt(KEY_HIGHSCORE, 0);
+        SharedPreferences prefs = getSharedPreferences(SHARED, MODE_PRIVATE);
+        highscore = prefs.getInt(KEY, 0);
         textViewHighscore.setText("Meilleur Score: " + highscore);
     }
 
@@ -108,9 +106,9 @@ public class Quiz extends AppCompatActivity {
         highscore = highscoreNew;
         textViewHighscore.setText("Meilleur Score: " + highscore);
 
-        SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+        SharedPreferences prefs = getSharedPreferences(SHARED, MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putInt(KEY_HIGHSCORE, highscore);
+        editor.putInt(KEY, highscore);
         editor.apply();
     }
 

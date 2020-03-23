@@ -38,6 +38,7 @@ public class Quiz_DbHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    //rempli la bdd de questions et reponses
     private void remplirQuestionTable() {
         Question q1 = new Question("Quel n’est pas le symptôme du Coronavirus COVID-19 ?", "Fièvre", "Difficultés respiratoires", "Des vomissements", 3);
         addQuestion(q1);
@@ -67,6 +68,7 @@ public class Quiz_DbHelper extends SQLiteOpenHelper {
         addQuestion(q13);
     }
 
+    //ajouter une question
     private void addQuestion(Question question) {
         ContentValues cv = new ContentValues();
         cv.put("question", question.getQuestion());
@@ -77,6 +79,7 @@ public class Quiz_DbHelper extends SQLiteOpenHelper {
         db.insert("Quiz", null, cv);
     }
 
+    //avoir toutes les questions
     public List<Question> getAllQuestions() {
         List<Question> questionList = new ArrayList<>();
         db = getReadableDatabase();

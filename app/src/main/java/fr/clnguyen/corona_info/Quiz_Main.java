@@ -18,7 +18,7 @@ import java.util.List;
 
 public class Quiz_Main extends AppCompatActivity {
 
-    public static final String EXTRA_SCORE = "cScore";
+    public static final String SCORE = "cScore";
 
     private TextView textViewQuestion;
     private TextView textViewScore;
@@ -55,7 +55,6 @@ public class Quiz_Main extends AppCompatActivity {
             textView.setText("" + str);
         }
 
-
         textViewQuestion = findViewById(R.id.text_question);
         textViewScore = findViewById(R.id.text_score);
         textViewQuestionCompteur = findViewById(R.id.text_question_compteur);
@@ -74,6 +73,7 @@ public class Quiz_Main extends AppCompatActivity {
 
         afficherProchaineQuestion();
 
+        //on coche la reponse, si pas cocher alors Toast
         buttonSuivant.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -152,7 +152,7 @@ public class Quiz_Main extends AppCompatActivity {
         } else {
             //Met le score dans le menu de départ du Quiz
             Intent result = new Intent();
-            result.putExtra(EXTRA_SCORE, score);
+            result.putExtra(SCORE, score);
             setResult(RESULT_OK, result);
             finish();
         }
