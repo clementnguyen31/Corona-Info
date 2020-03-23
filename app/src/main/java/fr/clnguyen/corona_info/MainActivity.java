@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         ImageButton img_plane = findViewById(R.id.plane);
         ImageButton img_infected = findViewById(R.id.infected);
 
-        //Bordure image -- A FAIRE
 
         //Listener image 1
         img_virus.setOnClickListener(new View.OnClickListener() {
